@@ -1,8 +1,8 @@
 # ImageClassification-CoreML
 
-![platform-ios](https://img.shields.io/badge/platform-ios-lightgrey.svg)
-![swift-version](https://img.shields.io/badge/swift-4-red.svg)
-![lisence](https://img.shields.io/badge/license-MIT-black.svg)
+![platform-ios](https://img.shields.io/badge/platform-ios-lightgreen.svg)
+![swift-version](https://img.shields.io/badge/swift-5-lightgreen.svg)
+![lisence](https://img.shields.io/badge/license-MIT-lightgreen.svg)
 
 ![DEMO-CoreML](https://github.com/QZhang-Ing/IOS/blob/master/Cam_ImageClassifier/resource/demo.GIF?raw=true)
 
@@ -16,7 +16,7 @@
 
 **Resnet50**  
 **Size:** 102,6MB  
-[Apple Developer - Core ML Models](https://developer.apple.com/machine-learning/models/)
+**Link:** [Apple Developer - Core ML Models](https://developer.apple.com/machine-learning/models/)
 
 
 ## Implementation Notes 
@@ -27,7 +27,7 @@
 
 ```swift
 // define ML model (in the form of VNCoreMLModel)
-        guard let model = try? VNCoreMLModel(for: Resnet50().model) else { return }
+guard let model = try? VNCoreMLModel(for: Resnet50().model) else { return }
 ```
 
 4. Update Label to display the result  
@@ -36,5 +36,5 @@
 DispatchQueue.main.sync {
                 self.labelLabel.text = /** result **/
                 self.confidenceLabel.text = /** confidence **/ 
-            }
+}
 ```
