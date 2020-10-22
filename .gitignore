@@ -1,0 +1,9 @@
+.DS_Store
+
+## Build generated
+build/
+DerivedData/
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
