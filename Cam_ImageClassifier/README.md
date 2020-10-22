@@ -1,4 +1,4 @@
-# ImageClassification-CoreML
+# ImageClassification-IOS-Camera using CoreML -- Resnet50
 
 ![platform-ios](https://img.shields.io/badge/platform-ios-lightgreen.svg)
 ![swift-version](https://img.shields.io/badge/swift-5-lightgreen.svg)
