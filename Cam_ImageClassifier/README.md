@@ -4,7 +4,7 @@
 ![swift-version](https://img.shields.io/badge/swift-4-red.svg)
 ![lisence](https://img.shields.io/badge/license-MIT-black.svg)
 
-![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/raw/master/resource/MobileNet-CoreML-DEMO.gif?raw=true)
+![DEMO-CoreML](https://github.com/QZhang-Ing/IOS/blob/master/Cam_ImageClassifier/resource/demo.GIF?raw=true)
 
 ## Requirements
 
